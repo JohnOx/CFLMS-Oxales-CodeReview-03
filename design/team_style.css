@@ -1,0 +1,11 @@
+#displayOutput {
+  border: solid black 2px;
+  width: 60%;
+  height: 100%; }
+
+#welcome {
+  font-size: 32pt;
+  border: solid grey 3px;
+  background-color: orangered; }
+
+/*# sourceMappingURL=team_style.css.map */

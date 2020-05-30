@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,cAAe;EACX,MAAM,EAAE,eAAe;EACvB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;;AAGhB,QAAS;EACL,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,cAAc;EACtB,gBAAgB,EAAE,SAAS",
+"sources": ["team_style.scss"],
+"names": [],
+"file": "team_style.css"
+}
