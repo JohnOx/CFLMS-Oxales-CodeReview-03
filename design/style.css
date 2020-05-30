@@ -1,0 +1,201 @@
+/*Media Queries Breakpoints*/
+@media screen and (max-width: 650px) {
+  #bannerRight {
+    display: none; }
+
+  .iSwrapper {
+    max-width: 25% !important; } }
+@media screen and (min-width: 651px) and (max-width: 1200px) {
+  #bannerRight {
+    display: none; } }
+* {
+  font-family: 'Baloo Chettan 2', cursive; }
+
+#mainContainer {
+  width: 100%;
+  margin: 0 auto; }
+
+/*-- HEADER-SECTION --*/
+header {
+  background-color: #fff3f3;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-content: center; }
+
+#bannerSectionTop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center; }
+
+#bannerSectionTop > img {
+  margin: auto;
+  padding: 20px; }
+
+/*- NavBar Top -*/
+.navBar {
+  background-color: #8e1616; }
+
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none; }
+
+.navBar ul li {
+  padding: 1%;
+  list-style: none; }
+
+.navBar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: large; }
+
+/*-- START OF MAIN SECTION --*/
+/*had to use direct url to http because my relative path somehow didn't work out*/
+.boxWrapper {
+  background-image: url(https://cdn.pixabay.com/photo/2014/04/27/00/43/traffic-332857_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80%;
+  position: relative;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+h3 {
+  color: white;
+  padding: 0 20px;
+  position: absolute;
+  z-index: 1; }
+
+/*- Form Design -*/
+.calcForm {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  opacity: 0.8;
+  background-color: #eaeaea;
+  text-align: center;
+  z-index: 1;
+  margin-top: 60px; }
+
+#textInForm {
+  color: black; }
+
+#inputSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.iSwrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  text-align: left; }
+
+#inputSection .iSwrapper input {
+  width: auto;
+  height: 25px; }
+
+#inputSection .iSwrapper select {
+  width: auto;
+  height: 30px; }
+
+/*- Button Design -*/
+#calcBtn {
+  width: 80%;
+  display: flex;
+  justify-content: center; }
+
+#calcExecute {
+  background-color: #339235;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  border-radius: 10%;
+  padding: 15px; }
+
+#calcDisplay {
+  color: green;
+  font-size: 20pt;
+  padding: 0 20px 0; }
+
+/*- Middle Page -*/
+.middlePage {
+  background-color: grey;
+  height: 150px;
+  width: 80%;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 18pt; }
+
+h1, #txtCenter {
+  margin: 0; }
+
+/*-- START OF ARTICLE SECTION --*/
+.articleSection {
+  display: flex;
+  flex-direction: row;
+  width: 80%; }
+
+article {
+  border: solid 2px grey;
+  background-color: white;
+  box-shadow: 0px -5px 10px 1px;
+  width: 40%;
+  height: auto;
+  margin: 5%;
+  padding: 2%; }
+
+[class^="top"] {
+  font-size: 16pt;
+  text-decoration: underline; }
+
+/*tried to change the bullet points and here's the same issue with the relative path! Must be something with compiling!
+article > ul {
+    list-style-image: url(".\..\assets\img\check-mark-12-16.gif");
+
+}*/
+/*-- START OF FOOTER --*/
+footer {
+  width: 80%;
+  height: 200px;
+  background-color: #171717;
+  color: white; }
+
+footer img {
+  float: right;
+  margin: 1%; }
+
+footer h4 {
+  clear: right;
+  padding: 1%;
+  text-align: center;
+  vertical-align: bottom; }
+
+/*- NavFooter -*/
+.navFooter {
+  background-color: #171717; }
+
+.navFooter ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none; }
+
+.navFooter ul li {
+  padding: 1%;
+  list-style: none; }
+
+.navFooter ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: large; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\..\design\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap" rel="stylesheet">
+    <title>Code Review03 - Insurance</title>
+</head>
+
+
+
+<body>
+
+    <div id="mainContainer">
+
+        <header>
+
+            <banner id="bannerSectionTop">
+                <img src=".\..\assets\img\logo.png" alt="CF-logo-top-left">
+                <img id="bannerRight" src=".\..\assets\img\banner.png" alt="fswd-banner-right">
+            </banner>
+
+            <nav class="navBar"> 
+                <ul>
+                    <li><a title="Home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+                </ul>
+            </nav><!--NavBar TOP-->
+
+        </header><!--HEADER-->
+
+
+<!--Start of Main Section-->
+
+        <main>
+
+            <h3>Car insurance</h3>
+
+        <div class = "boxWrapper">
+
+            <div class="calcForm">
+                
+                <h1 id="textInForm">Great coverage begins <br>with a custom quote</h1>
+            
+                    <div id="inputSection">
+
+                        <div class ="iSwrapper">
+
+                            <label for="yourName">Your name:</label>
+                            <input type="text" name="yourName"  id="yourName">
+                            
+                            <label for="country">Country:</label>
+                                <select name="country" id="country">
+                                    <option value="Austria">Austria</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Greece">Greece</option>
+                                </select><!--select Country-->
+
+                        </div><!--wrapper left column-->
+
+                        <div class ="iSwrapper">
+                        
+                            <label for="Age">Age:</label>
+                            <input type="text" name="Age" id="age">
+
+                            <label for="horsepower">Horsepower of your car:</label>
+                            <input type="text" name="Age" id="horsepower">
+                        
+                        </div><!--wrapper right column-->
+
+                    </div><!--input Section-->
+
+
+                        <div id="calcBtn">
+                            <input type="button" value="Calculate" id="calcExecute">
+                        </div><!--Button for calculation-->
+
+
+                        <h2 id="calcDisplay"></h2><!--message after calculation-->
+
+            </div><!--calcForm-->
+        
+        </div><!--Box wrapper-->
+
+            <div class ="middlePage">
+                <p id="txtCenter">Un-complicating car coverage <br>
+                    Understanding your coverage options shouldn't be so hard. <br>
+                    We'll guide you through available coverage types, <br>
+                    starting with who and what is covered.</p>
+            </div>
+
+        </main><!--main-section-->
+
+
+<!--Start of article Section with two boxes-->
+
+
+        <div class="articleSection">
+
+            <article id="listLeft">
+                <p><p class ="top">What comes standard</p><br>
+                    The coverage you need</p>
+                
+                    <ul>
+                        <li>Bodily Injury Liability</li>
+                        <li>Property Damage</li>
+                        <li>Medical Payments</li>
+                    </ul>
+
+                
+                <p><b>Benefits</b><br>
+                    12-month rate guarantee | 24/7 customer <br>
+                    service | Lifetime Repair Guarantee</p>
+
+            </article><!--List left-->
+
+            <article id="listRight">
+                <p><p class ="top">Add-on protection & coverage</p><br>
+                    For more peace of mind</p>
+                
+                    <ul>
+                        <li>Better Car Replacement</li>
+                        <li>Towing & Labor</li>
+                        <li>Rental Car Coverage</li>
+                    </ul>
+
+                
+                <p><b>Earned Benefits</b><br>
+                    Accident Forgiveness¹ | New Car <br>
+                    Replacement™</p>
+
+
+            </article><!--List Right-->
+
+        </div><!--Article Section-->
+
+
+<!--Start of FOOTER-->
+
+        <footer>
+
+            <nav class="navFooter"> 
+                <ul>
+                    <li><a title="Home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+                </ul>
+            </nav><!--NavBar BOTTOM-->
+
+            <img src=".\..\assets\img\logo-inv.png" alt="CF-logo-bottom-right">
+
+
+            <h4>John Oxales - CodeFactory 2020</h4>
+
+        </footer><!--FOOTER-->
+
+
+    </div><!--main Container-->
+
+
+    <script src=".\..\scripts\main.js"></script>
+
+</body>
+
+
+</html>
